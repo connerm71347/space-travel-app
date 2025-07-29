@@ -75,25 +75,34 @@ You can navigate through the app using the navbar at the top of the page — gui
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/YOUR-USERNAME/space-travel.git
+   git clone https://github.com/conner-manguso/space-travel-app.git
    cd space-travel
 
    ```
 
 2. **Install dependencies:**
 
-- npm install
-  Make sure you have **Node.js** installed
+```bash
+npm install
+```
+
+Make sure you have **Node.js** installed
 
 3. **Start the development server:**
 
-- npm run dev
-  This will start the app at http://localhost:5173/.
+```bash
+ npm run dev
+```
+
+This will start the app at http://localhost:5173/.
 
 4. **Run tests (optional):**
 
-- npm test
-  To run the unit tests:
+```bash
+ npm test
+```
+
+To run the unit tests:
 
 ## 🖥️ Usage Instructions
 
