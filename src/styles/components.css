@@ -1,0 +1,50 @@
+.loader {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 2rem;
+}
+
+.error-message {
+  color: var(--danger-color);
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.error {
+  color: var(--danger-color);
+}
+/* Centered overlay */
+.loader-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent background */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+/* Spinner animation */
+.spinner {
+  width: 60px;
+  height: 60px;
+  border: 6px solid rgba(255, 255, 255, 0.2);
+  border-top: 6px solid #61dafb;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 0 auto 1rem auto;
+  display: block;
+}
+
+/* Keyframes for spinner */
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

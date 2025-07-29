@@ -1,0 +1,40 @@
+.root-layout header {
+  background: #111827;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column; /* Stack h1 above nav */
+  align-items: flex-start; /* Align to the left */
+  gap: 0.5rem; /* Adds spacing between h1 and nav */
+}
+
+.root-layout header h1 {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0;
+}
+
+.root-layout nav a {
+  margin-left: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 4px;
+  border-radius: 2px;
+  color: white;
+}
+
+.root-layout nav a:hover,
+.root-layout nav .active:hover {
+  outline: 2px solid whitesmoke;
+}
+
+.root-layout nav .active {
+  background: #325b75;
+}
+
+main {
+  padding: 2rem;
+}
+
+.spacecraft-layout nav {
+  margin: 1rem 0;
+}
